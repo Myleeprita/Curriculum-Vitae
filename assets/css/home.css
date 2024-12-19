@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular\ \(convert.io\).woff");
+    src: url("../fonts/Raleway-Regular\ \(convert.io\).otf") format("opentype");
+    src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+    src: url("../fonts/Raleway-Bold\ \(convert.io\).woff");
+    src: url("../fonts/Raleway-Bold\ \(convert.io\).otf") format("opentype");
+    src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1160px;
+    margin: auto;
+    font-family: "Raleway", serif;
+}
+h1,h2 {
+    font-family: "Lato", sans-serif;
+}
